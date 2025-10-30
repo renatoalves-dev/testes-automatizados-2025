@@ -37,8 +37,8 @@ print(title)
 
 # Encontrando a caixa de Login e realizando uma ação
 
-login = driver.find_element(By.ID, "login").send_keys("carol")
-senha = driver.find_element(By.ID, "senha").send_keys("Admin123")
+login = driver.find_element(By.ID, "login").send_keys("c")
+senha = driver.find_element(By.ID, "senha").send_keys("Admi")
 button = driver.find_element(By.ID, "button3").click()
 
 
@@ -213,3 +213,4 @@ while scheight < 43.9:
 driver.save_full_page_screenshot('consolidarSucesso.png')   
 
 time.sleep(20) 
+
