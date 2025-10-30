@@ -33,8 +33,8 @@ print(title)
 
 # Encontrando a caixa de Login e realizando uma ação
 
-login = driver.find_element(By.ID, "login").send_keys("caroline")
-senha = driver.find_element(By.ID, "senha").send_keys("Admin123")
+login = driver.find_element(By.ID, "login").send_keys("ca")
+senha = driver.find_element(By.ID, "senha").send_keys("A")
 button = driver.find_element(By.ID, "button3").click()
 
 driver.fullscreen_window()
@@ -74,3 +74,4 @@ while i <= 10:
     print('Now waiting 3 seconds before repeating')
     time.sleep(3)
     i += 1
+
