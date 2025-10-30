@@ -72,7 +72,7 @@ time.sleep(10)
 ################################ Funcionário cadastro e pesquisa ###############################################################
 
 # nome = driver.find_element(By.ID, "nome")
-# nome.send_keys("Caroline Barbosa @TestesAutomatizados123")
+# nome.send_keys("C")
 # #nome.send_keys("Afranio Barbosa")
 
 
@@ -129,5 +129,6 @@ driver.switch_to.alert.accept()
 time.sleep(40)
 
 driver.quit()
+
 
 
